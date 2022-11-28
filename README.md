@@ -1,4 +1,4 @@
-# @pronestor/react-zoom-pan-pinch
+# @kosmotema/react-zoom-pan-pinch
 
 Super fast and light react Node.js package for zooming, panning and pinching html elements in an easy way.
 
@@ -6,20 +6,20 @@ This is a fork of [react-zoom-pan-pinch](https://github.com/prc5/react-zoom-pan-
 
 ## Documentation
 
-[Storybook for `@pronestor/react-zoom-pan-pinch`](https://pronestoraps.github.io/react-zoom-pan-pinch/).
+[Storybook for `@kosmotema/react-zoom-pan-pinch`](https://kosmotema.github.io/react-zoom-pan-pinch/).
 
 ## Quick Start
 
 ### Installation
 
 ```shell
-yarn add @pronestor/react-zoom-pan-pinch
+yarn add @kosmotema/react-zoom-pan-pinch
 ```
 
 or
 
 ```shell
-npm install @pronestor/react-zoom-pan-pinch
+npm install @kosmotema/react-zoom-pan-pinch
 ```
 
 ### Usage
@@ -30,7 +30,7 @@ Basic usage:
 import {
   TransformComponent,
   TransformWrapper,
-} from "@pronestor/react-zoom-pan-pinch";
+} from "@kosmotema/react-zoom-pan-pinch";
 
 export const SimpleExample = () => (
   <TransformWrapper>
@@ -47,7 +47,7 @@ With controls:
 import {
   TransformComponent,
   TransformWrapper,
-} from "@pronestor/react-zoom-pan-pinch";
+} from "@kosmotema/react-zoom-pan-pinch";
 
 export const ExampleWithZoomControls = () => (
   <TransformWrapper
@@ -73,4 +73,4 @@ export const ExampleWithZoomControls = () => (
 
 ## License
 
-MIT © [Pronestor](https://github.com/proNestorAps)
+MIT © [Pronestor](https://github.com/proNestorAps), [Artem Pitikin](https://github.com/kosmotema)
