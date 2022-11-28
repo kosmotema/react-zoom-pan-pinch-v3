@@ -1,5 +1,5 @@
 import { ReactZoomPanPinchContext } from "../../models";
-import { getCenterPosition } from "../../utils";
+import { getCenterPosition } from "../../utils/styles.utils";
 import { animations } from "../animations/animations.constants";
 import { animate, handleCancelAnimation } from "../animations/animations.utils";
 import {

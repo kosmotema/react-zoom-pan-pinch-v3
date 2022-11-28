@@ -1,5 +1,5 @@
 import { ReactZoomPanPinchContext, ReactZoomPanPinchState } from "../../models";
-import { roundNumber } from "../../utils";
+import { roundNumber } from "../../utils/calculations.utils";
 import { animate } from "../animations/animations.utils";
 import { handleCalculateBounds } from "../bounds/bounds.utils";
 import { handleAlignToBounds } from "../pan/panning.logic";

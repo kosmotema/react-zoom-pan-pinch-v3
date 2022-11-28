@@ -3,7 +3,7 @@ import {
   ReactZoomPanPinchContext,
   ReactZoomPanPinchState,
 } from "../../models";
-import { isExcludedNode } from "../../utils";
+import { isExcludedNode } from "../../utils/helpers.utils";
 import { getMouseBoundedPosition } from "../bounds/bounds.utils";
 import { handleCalculateZoomPositions } from "../zoom/zoom.utils";
 

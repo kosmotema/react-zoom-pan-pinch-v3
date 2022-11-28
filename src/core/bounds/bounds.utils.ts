@@ -3,7 +3,7 @@ import {
   PositionType,
   ReactZoomPanPinchContext,
 } from "../../models";
-import { roundNumber } from "../../utils";
+import { roundNumber } from "../../utils/calculations.utils";
 import { ComponentsSizesType } from "./bounds.types";
 
 export function getComponentsSizes(
