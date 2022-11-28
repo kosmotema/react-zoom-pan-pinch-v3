@@ -35,6 +35,7 @@ export default defineConfig([
       typescript(),
       postcss({
         modules: true,
+        extract: "index.css",
       }),
     ],
     external: Object.keys(pkg.peerDependencies || {}),

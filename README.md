@@ -32,6 +32,8 @@ import {
   TransformWrapper,
 } from "@kosmotema/react-zoom-pan-pinch";
 
+import "@kosmotema/react-zoom-pan-pinch/index.css";
+
 export const SimpleExample = () => (
   <TransformWrapper>
     <TransformComponent>
@@ -48,6 +50,8 @@ import {
   TransformComponent,
   TransformWrapper,
 } from "@kosmotema/react-zoom-pan-pinch";
+
+import "@kosmotema/react-zoom-pan-pinch/index.css";
 
 export const ExampleWithZoomControls = () => (
   <TransformWrapper
