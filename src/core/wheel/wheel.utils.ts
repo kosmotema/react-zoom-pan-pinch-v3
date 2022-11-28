@@ -10,7 +10,7 @@ export const isWheelAllowed = (
     contextInstance.setup.wheel;
   const { isInitialized, isPanning } = contextInstance;
 
-  const target = event.target as HTMLElement | null;
+  const target = event.composedPath()[0] as HTMLElement | null;
   const isAllowed = isInitialized && !isPanning && !disabled && target !== null;
   if (!isAllowed) {
     return false;
