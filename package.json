@@ -1,6 +1,6 @@
 {
   "name": "@kosmotema/react-zoom-pan-pinch",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "React package for zooming, panning and pinching html elements in an easy way.",
   "author": "Artem Pitikin <git@kosmotema.dev>",
   "license": "MIT",
